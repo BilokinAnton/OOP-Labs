@@ -1,0 +1,26 @@
+name: Lab5 check
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'Lab5/**'
+      - 'pom.xml'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'Lab5/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+      - name: Build and Test
+        run: mvn -B test -pl Lab5
