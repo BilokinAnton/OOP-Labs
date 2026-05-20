@@ -7,7 +7,7 @@
 - [x] [Лабораторна робота №1](https://github.com/BilokinAnton/OOP-Labs/tree/main/Lab1)
 - [x] [Лабораторна робота №2](https://github.com/BilokinAnton/OOP-Labs/tree/main/Lab2)
 - [x] [Лабораторна робота №3](https://github.com/BilokinAnton/OOP-Labs/tree/main/Lab3)
-- [ ] Лабораторна робота №4
+- [x] [Лабораторна робота №4](https://github.com/BilokinAnton/OOP-Labs/tree/main/Lab4)
 - [ ] Лабораторна робота №5
 - [ ] Лабораторна робота №6
 
