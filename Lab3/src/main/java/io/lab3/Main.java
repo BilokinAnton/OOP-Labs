@@ -7,7 +7,7 @@ import io.lab3.car.Car;
 import io.lab3.tool.OutputFormatter;
 
 /**
- * Лабораторна робота з ООП №2
+ * Лабораторна робота з ООП №3
  * Номери завдань:
  * - C11 = 5303 % 11 = 1
  */
